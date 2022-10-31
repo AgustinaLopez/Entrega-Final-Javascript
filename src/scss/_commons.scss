@@ -1,0 +1,101 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+h1, h2, h3, h4{
+	font-family: $titulosFont;
+	color: map-get($map:$colores, $key:'tres');
+	font-weight: 400;
+}
+
+h1{
+	font-size: $textXl;
+	text-align: center;
+}
+
+h2{
+	font-size: $textLg;
+	text-align: center;
+}
+
+h3, h4{
+	font-size: $textMd;
+}
+
+body{
+	background-color: map-get($map:$colores, $key:'uno');
+}
+
+p{
+	font-family: $mainFont;
+	font-size: $textLg;
+	color: map-get($map:$colores, $key:'tres');
+	font-weight: 350;
+	text-align: center;
+}
+
+.textos{
+	@include texto();
+}
+
+.pagProductos{
+	overflow-x: hidden;
+}
+
+//extends
+.botonUno{
+      color:map-get($map:$colores, $key:'dos');
+      background-color: map-get($map:$colores, $key:'cuatro');
+      font-family: $mainFont;
+      text-decoration: none;
+      border-radius: 6px ;
+      font-size: $textMd;
+      text-align: center ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover{
+      	   transform: translateY(-10px);
+           cursor: pointer;
+           font-weight: 400 ;
+           color:white;
+        }
+}
+
+.botonDos{
+	@extend .botonUno;
+	width: 100px;
+    height: 30px;
+    margin-left: 50px;
+}
+
+
+.textosConBorde{
+	@extend .textos;
+	border: solid #A99F3C 2px;
+}
+
+
+.contenedorDos{
+	@extend .contenedor;
+	display: flex;
+}
+
+.formularioTexto{
+	font-family: $mainFont;
+	font-size: $textMd;
+	line-height: 2rem;
+	color: map-get($map:$colores, $key:'tres');
+	font-weight: 350;
+}
+
+
+.navegacionBreadcrumbs{
+	font-size: $textMd;
+    text-decoration: none;
+    color: map-get($map:$colores, $key:'dos');
+    font-family: $mainFont
+}
+

@@ -1,0 +1,29 @@
+//VARIABLES
+
+//maps
+$colores:(
+	'uno': #FFF4E1,
+	'dos': #eee2d1,
+	'tres': #A99F3C,
+	'cuatro': #E59D5C,
+	'cinco': #007863,
+	);
+
+
+//mixins
+@mixin texto(){
+	width: 100%;
+	height: auto;
+	font-size: $textMd;
+	margin: 30px auto;
+	padding: 20px 40px;
+	overflow: auto;
+}
+
+.contenedor{
+	background-color: map-get($map:$colores, $key:'dos');
+}
+
+
+
+

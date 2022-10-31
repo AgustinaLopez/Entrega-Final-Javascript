@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Prata&display=swap");
+.contenedor, .contenedorDos {
+  background-color: #f5e5dd; }
+
+.botonera {
+  background-color: #90c6fa;
+  display: flex;
+  justify-content: space-between;
+  opacity: .8; }
+  .botonera img {
+    width: 200px; }
+  .botonera ul {
+    display: flex; }
+    .botonera ul li {
+      list-style: none; }
+      .botonera ul li a {
+        font-family: "Comfortaa", cursive;
+        color: #eac2b1;
+        font-size: 1em;
+        text-decoration: none; }
+        .botonera ul li a:hover {
+          color: white;
+          font-weight: 600;
+          background-size: 100% 2px; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+h1, h2, h3, h4 {
+  font-family: "Prata", serif;
+  color: #90c6fa;
+  font-weight: 400; }
+
+h1 {
+  font-size: 2.8em;
+  text-align: center; }
+
+h2 {
+  font-size: 1.5em;
+  text-align: center; }
+
+h3, h4 {
+  font-size: 1em; }
+
+body {
+  background-color: #FFF4E1; }
+
+p {
+  font-family: "Comfortaa", cursive;
+  font-size: 1em;
+  color: #58a7f1;
+  font-weight: 350;
+  text-align: center; }
+
+  
+
+.textos, .textosConBorde {
+  width: 100%;
+  height: auto;
+  font-size: 1em;
+  margin: 30px auto;
+  padding: 20px 40px;
+  overflow: auto; }
+
+.pagProductos {
+  overflow-x: hidden; }
+
+.botonUno, .botonDos {
+  color: white;
+  background-color: #90c6fa;
+  font-family: "Comfortaa", cursive;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .botonUno:hover, .botonDos:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    font-weight: 400;
+    color: white; }
+
+.botonDos {
+  width: 100px;
+  height: 30px;
+  margin-left: 50px; }
+
+.textosConBorde {
+  border: solid #2c7aaf 2px; }
+
+.textosHoteles {
+  border: solid #d6d9db 0.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 30px auto;
+  padding: 20px 40px;
+}  
+
+.contenedorDos {
+  display: flex; }
+
+.formularioTexto {
+  font-family: "Comfortaa", cursive;
+  font-size: 1em;
+  line-height: 2rem;
+  color: #2c7aaf;
+  font-weight: 350; }
+
+.navegacionBreadcrumbs {
+  font-size: 1em;
+  text-decoration: none;
+  color: #eee2d1;
+  font-family: "Comfortaa", cursive; }
+
+.pie {
+  background-color: #90c6fa;
+  opacity: .8;
+  padding: 8px;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.pieNewsletter {
+  font-family: "Comfortaa", cursive;
+  font-size: 0.8em;
+  color: white;
+  font-weight: 350; }
+
+.whatsapp-icon {
+  background-image: url(../img/whatsapp.png);
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  list-style: none;
+  margin-right: 6px; }
+
+.instagram-icon {
+  background-image: url(../img/instagram.png);
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  list-style: none;
+  margin-right: 6px; }
+
+@media (min-width: 220px) and (max-width: 273px) {
+  iframe[src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.792946098234!2d-64.19037088424837!3d-31.419830303563725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a32dcf5d747f%3A0x40373220b29140ac!2sPatio%20Olmos%20Shopping!5e0!3m2!1ses-419!2sar!4v1653937795964!5m2!1ses-419!2sar"] {
+    width: 150px;
+    height: 150px; }
+  img[src="img/logo1.png"] {
+    width: 100px; }
+  img[src="../img/logo1.png"] {
+    width: 100px; }
+  h1 {
+    font-size: 1em; }
+  h2 {
+    font-size: 1em; }
+  .textoEditado {
+    font-size: 0.8em;
+    overflow-x: hidden; }
+  .newsletterEditado {
+    font-size: 1em; }
+  img[src="../img/productos/camino.jpg"] {
+    width: 150px; }
+  img[src="../img/productos/canasto.jpg"] {
+    width: 150px; }
+  img[src="../img/productos/difusor-vela.jpg"] {
+    width: 150px; }
+  img[src="../img/productos/maceta.jpg"] {
+    width: 150px; }
+  img[src="../img/productos/individuales.jpg"] {
+    width: 150px; }
+  img[src="../img/productos/almohadones.jpg"] {
+    width: 150px; }
+  img[src="../img/productos/platos.jpg"] {
+    width: 150px; } }
+
+@media (min-width: 273px) and (max-width: 573px) {
+  iframe[src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.792946098234!2d-64.19037088424837!3d-31.419830303563725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a32dcf5d747f%3A0x40373220b29140ac!2sPatio%20Olmos%20Shopping!5e0!3m2!1ses-419!2sar!4v1653937795964!5m2!1ses-419!2sar"] {
+    width: 180px; }
+  h1 {
+    font-size: 1.5em; }
+  h2 {
+    font-size: 1em; }
+  p {
+    font-size: 0.8em; } }
+
+@media (min-width: 576px) and (max-width: 1017px) {
+  h1 {
+    font-size: 1.5em; } }
+
+@media (min-width: 768px) and (max-width: 1328px) {
+  img[src="../img/familia-emprendedora.jpeg"] {
+    width: 500px; }
+  img[src="../img/mision.jpg"] {
+    width: 500px; } }
+
+@media (min-width: 993px) and (max-width: 1283px) {
+  img[src="../img/productos/camino.jpg"] {
+    width: 200px; }
+  img[src="../img/productos/canasto.jpg"] {
+    width: 200px; }
+  img[src="../img/productos/difusor-vela.jpg"] {
+    width: 200px; }
+  img[src="../img/productos/maceta.jpg"] {
+    width: 200px; } }
+
+
+
+   

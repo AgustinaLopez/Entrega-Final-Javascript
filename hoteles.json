@@ -1,0 +1,82 @@
+[
+    {         "id":"Hotel1", 
+              "nombre": "All Star Movies", 
+              "categoria": "Economico", 
+              "price": 1500, 
+              "extra": "desayuno incluido", 
+              "img": "img/hoteles/movies.jpg"
+            },
+
+
+    {         "id": "Hotel2",
+              "nombre": "All Star Music", 
+              "categoria": "Economico" ,
+              "price": 1500, 
+              "extra": "desayuno incluido", 
+              "img": "img/hoteles/music.jpg"
+            },
+
+
+    {         "id": "Hotel3",
+              "nombre": "All Star Sports", 
+              "categoria": "Economico" ,
+              "price": 1500, 
+              "extra": "desayuno incluido", 
+              "img": "img/hoteles/sports.jpg"
+            },
+
+
+    {         "id": "Hotel4",
+              "nombre": "Caribbean Beach Resort", 
+              "categoria": "Moderado",
+              "price": 2000, 
+              "extra": "entrada temprana", 
+              "img": "img/hoteles/caribbean.jpg"
+            },
+
+
+    {         "id": "Hotel5",
+              "nombre": "Coronado Spring", 
+              "categoria": "Moderado" ,
+              "price": 2000, 
+              "extra": "entrada temprana", 
+              "img": "img/hoteles/coronado.jpg"
+            },
+
+
+    {         "id":"Hotel6",
+              "nombre": "Port Orleans", 
+              "categoria": "Moderado" ,
+              "price": 2000, 
+              "extra": "entrada temprana", 
+              "img": "img/hoteles/orleans.jpg"
+            }, 
+
+
+    {         "id":"Hotel7",
+              "nombre": "Contemporany Resort", 
+              "categoria": "Deluxe",
+              "price": 3500, 
+              "extra": "descuento", 
+              "img": "img/hoteles/contemporany.jpg"
+            },
+
+
+    {         "id":"Hotel8",
+              "nombre": "Animal Kingdom Lodge", 
+              "categoria": "Deluxe",
+              "price": 3500, 
+              "extra": "descuento", 
+              "img": "img/hoteles/animal.jpg"
+            },
+
+
+            
+    {         "id": "Hotel9",
+              "nombre": "Grand Floridian", 
+              "categoria": "Deluxe" ,
+              "price": 3500, 
+              "extra": "descuento", 
+              "img": "img/hoteles/floridian.jpg"
+            }
+]

@@ -1,0 +1,29 @@
+//nesting
+
+.botonera{
+	background-color: map-get($map:$colores, $key:'cuatro');
+    display: flex;
+    justify-content: space-between;
+    opacity: .8;
+    img{
+    	width: 200px;
+    }
+    ul{
+    	display: flex;
+    	li{
+    		list-style: none;
+    		a{
+    			font-family: $mainFont;
+    			color: map-get($map:$colores, $key:'dos');
+    			font-size: $textMd;
+    			text-decoration: none;
+                &:hover{
+                	color: white;
+                	font-weight: 600;
+                	background-size: 100% 2px;
+                }
+    		}
+    	}
+    }
+}
+

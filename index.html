@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- wow js -->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>¡Armamos tu Paquete Disney!</title>
+    <link rel="shortcut icon" href="img/favicon.png">
+  </head>
+  <body>
+    <!-- Inicio Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light sticky-top botonera">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo1.png" alt="">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="views/reserva-ahora.html">Reservar Ahora</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="views/hoteles.html">Nuestros Hoteles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Contactanos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Fin Navbar -->
+
+    <!-- Inicia Header tipo Carousel -->
+
+          <div id="carouselExampleIndicators header" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="img/headers/header1.jpg" class="d-block w-100 imgHeaders" alt="">
+          </div>
+          <div class="carousel-item active">
+            <img src="img/headers/header2.jpg" class="d-block w-100 imgHeaders" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="img/headers/header3.jpg" class="d-block w-100 imgHeaders" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="img/headers/header4.jpg" class="d-block w-100 imgHeaders" alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- Fin Header tipo Carousel -->
+
+
+    <main id="main">
+      <section class="py-3">
+        <div class="container-fluid">
+  
+         <!-- Inicio Breadcrumbs -->
+            <nav aria-label="breadcrumb" class="navegacionBreadcrumbs">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              </ol>
+            </nav>
+         <!-- Fin Breadcrumbs -->
+
+          <section class="contenedor w-75 mx-auto">
+            <div class="card col-sm-12 cold-md-4 mb-3">
+              <div class="contenedor row g-0">
+                <div class="col-md-4">
+                  <img src="img/parque.jpg" class="rounded-start w-100 wow fadeInLeft" alt="Magic Kingdom">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h1 class="card-title wow fadeInRight">Te ayudamos a vivir unas mágicas vacaciones!</h1>
+                    <p class="card-text texto wow fadeInRight pb-5 "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, sequi. Et natus excepturi ab. Praesentium sunt officiis cupiditate, excepturi inventore necessitatibus commodi dolore at voluptatum iusto saepe. Nihil </p>
+                     <!-- Search Form Section Begin -->
+                      <section class="search-form">
+                        <div class="container bg-form col-xl-12 col-sm-12"> 
+                            <form class="row d-flex justify-content-center align-content-center">         
+                                <div class=" col-xl-4 col-sm-6">                                
+                                    <label for="check-in">Check-in</label>
+                                    <input class="form-control form-control-sm" type="date" name="check-in" id="check-in">   
+                                </div>                        
+                                <div class=" col-xl-4 col-sm-6">                                
+                                    <label for="check-out">Check-out</label>
+                                    <input class="form-control form-control-sm" type="date" name="check-out" id="check-out"> 
+                                </div>
+                                <div class="form-row form-group flex-column align-items-center align-self-center col-xl-2 col-sm-6">                                
+                                  <label for="guests">Guests</label>
+                                  <select name="guests" id="pasajeros" class="form-control-sm" required></select>
+                              </div>
+                              <div class="align-self-center col-xl-1 col-sm-6">
+                                  <a href="views/hoteles.html"><button onclick="pasajeroDatos()" id="book" type="button" class="btn btn-success btn-sm botonUno">Buscar</button></a>
+                              </div>
+                            </form>
+                        </div>
+                    </section>
+                    <!-- Search Form Section End -->
+                  </div>
+                </div>  
+              </div>
+            </div>
+         </section>
+
+
+
+     <!-- Texto Presentacion -->
+      <section class="row textos fondoTexto">
+        <div class="col-sm-12 col-md-12 col-lg-12 animacionTextos">
+          <div class="textosConBorde wow fadeInUp">
+            <h2 class="wow fadeInUp text-center">Somos agentes certificados</h2>        
+            <p class=" text-center textoEditado wow fadeInUp"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis maiores dolor vel unde a suscipit illum! Voluptatem amet excepturi vero doloribus delectus animi eius, nobis, blanditiis, non eos iure consequatur! </p>
+          </div>
+       </div>
+      </section>
+ 
+    
+
+      <!-- Contacto -->
+      <section class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+               <article>
+               <h3 class="text-centro"> ¿Tenes alguna duda? ¡Escribinos!</h3>
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" style="width: 100%" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput" class="formularioTexto">Tu Correo</label>
+                </div>
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave a comment here" style="height: 100px;" id="floatingTextarea2"></textarea>
+                  <label for="floatingTextarea2" class="formularioTexto">Dejanos Tu Mensaje</label>
+                </div>
+                <br>
+                <button type="submit" class="btn botonUno transform" id="botonFormulario">Enviar</button>
+              </article> 
+            </div>
+      
+            <div class="col-sm-12 col-md-12 col-lg-6 py-3">
+              <article>
+                <h3 class="text-centro">Visitanos!</h3>
+                <iframe class="ms-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.792946098234!2d-64.19037088424837!3d-31.419830303563725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a32dcf5d747f%3A0x40373220b29140ac!2sPatio%20Olmos%20Shopping!5e0!3m2!1ses-419!2sar!4v1653937795964!5m2!1ses-419!2sar" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             </article>
+          </div>
+        </div> 
+      </section>
+   </main>
+
+   <footer class="pie" id="footer">
+     <section>
+      <form action="envio.php" id="newsletter"></form>
+        <fieldset class="pieNewsletter">
+          <legend class="newsletterEditado">Sumate a nuestro newsletter</legend>
+          <label for="email">Correo Electronico</label>
+          <input type="email" id="email" placeholder="Tu correo electronico aqui">
+    </fieldset> 
+     </section>
+
+     <section>
+       <a href="https://www.instagram.com/" target="_blank">
+      <img src="img/instagram.png" alt="Nuestro Instagram">
+       </a>
+      <a href="https://whatsapp.com/" target="_blank">
+      <img src="img/whatsapp.png" alt="Nuestro whatsapp">
+      </a>
+     </section>
+   </footer>
+
+   
+   <script src="hoteles.json" type="module"></script>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>  
+   <script src="js/wow.min.js"></script>
+    <script>
+          new WOW().init();
+    </script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <script src="js/main.js"></script>
+    <script src="js/hoteles.js"></script>
+    <script src="js/paquete.js"></script>
+  </body>
+</html>
